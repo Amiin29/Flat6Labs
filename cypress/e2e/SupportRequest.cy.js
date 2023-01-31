@@ -22,7 +22,6 @@ describe('Login', () => {
                   for (let i=0;i<=Cypress.$(jsonData[0]).length;i++){
                       if (jsonData[i].name ==="Incubator"){
                        cy.log(jsonData[i].name)
-                       cy.log(jsonData[i].name)
 
                           cy.writeFile("cypress/fixtures/SignIn_Incubator.json", {Email_Incubator:jsonData[i].data[0][0], Password_Incubator:jsonData[i].data[0][1]})
                         }
