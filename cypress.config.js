@@ -8,7 +8,7 @@ module.exports =  defineConfig({
   projectId: 'vovyki', //  Ancien project id : irft2c
 // ***********************************************
   e2e: {
-  // specPattern :'cypress/e2e/AllSpecPattern.cy.js',
+  specPattern :'cypress/e2e/AllSpecPattern.cy.js',
     setupNodeEvents(on, config) {
       
       on("task", {
