@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672919860567' stop='1672919860619'>
+    <name>Sign Up to FLAT6LABS convert data to Json</name>
+    <title>Sign Up to FLAT6LABS convert data to Json</title>
+    <test-cases>
+        <test-case start='1672919860568' status='passed' stop='1672919860615'>
+            <name>read data from excel</name>
+            <title>read data from excel</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

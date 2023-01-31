@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673276973454' stop='1673277026669'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1673276973455' status='passed' stop='1673276974142'>
+            <name>Should visit the login page correctly</name>
+            <title>Should visit the login page correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276974198' status='passed' stop='1673276975154'>
+            <name>Login as incubator</name>
+            <title>Login as incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276975159' status='passed' stop='1673276975657'>
+            <name>Open the page Porgrams</name>
+            <title>Open the page Porgrams</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276975668' status='passed' stop='1673276975989'>
+            <name>Open the popup for adding new program</name>
+            <title>Open the popup for adding new program</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276976001' status='passed' stop='1673276979238'>
+            <name>Fill the forms of addition new program and check the program is Successfuly added</name>
+            <title>Fill the forms of addition new program and check the program is Successfuly added</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276979243' status='passed' stop='1673276979529'>
+            <name>Open the popup for adding new Cycle</name>
+            <title>Open the popup for adding new Cycle</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276979533' status='passed' stop='1673276990926'>
+            <name>Fill the forms of addition new cycle and check the cycle is Successfuly added</name>
+            <title>Fill the forms of addition new cycle and check the cycle is Successfuly added</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276990972' status='passed' stop='1673276991248'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673276991253' status='passed' stop='1673277001277'>
+            <name>Login as admin</name>
+            <title>Login as admin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277001282' status='passed' stop='1673277001888'>
+            <name>Go to Support</name>
+            <title>Go to Support</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277001923' status='passed' stop='1673277007440'>
+            <name>Accept Cycle Approval </name>
+            <title>Accept Cycle Approval </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277007446' status='passed' stop='1673277007822'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277007836' status='passed' stop='1673277018362'>
+            <name>Login as Incubator</name>
+            <title>Login as Incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277018366' status='failed' stop='1673277026589'>
+            <name>Check the content message of the notification </name>
+            <title>Check the content message of the notification </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[href="/admin/supports/inbox/cycleApproval"]`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[href="/admin/supports/inbox/cycleApproval"]`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Programs/AddNewProgramPage.js:12:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

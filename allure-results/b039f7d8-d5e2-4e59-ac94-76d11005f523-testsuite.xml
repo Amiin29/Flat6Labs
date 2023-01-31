@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672918714233' stop='1672918724745'>
+    <name>Login Reading Data from newly created json file</name>
+    <title>Login Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1672918714233' status='passed' stop='1672918717177'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672918717184' status='passed' stop='1672918718389'>
+            <name>Go to support </name>
+            <title>Go to support </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672918718395' status='passed' stop='1672918718447'>
+            <name>Check the succseful message </name>
+            <title>Check the succseful message </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672918718467' status='passed' stop='1672918718690'>
+            <name>Log Out from the website </name>
+            <title>Log Out from the website </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

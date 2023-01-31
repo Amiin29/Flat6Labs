@@ -1,0 +1,21 @@
+{
+    "DatashortDescription_11":"testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest",
+    "DataLongDescription":"tetesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttestttetesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttestteststesttesttesttesttesttesttesttesttesttestst",
+    "DataDate":"12/12/2022",
+    "DataMsg":"Draft saved.",
+    "ApplicationSubmittedMsg_1":"Application submitted! Good luck!",
+    "ApplicationSubmittedMsg_2":"Submit Application",
+    "ButtonSubmit":":nth-child(2) > .MuiButton-root",
+    "TextSuccessAprovalCycle":".p-16 > :nth-child(1) > :nth-child(2) > .flex > div",
+    "GoToCycleBtn_1":":nth-child(1) > :nth-child(8) > .muiltr-0 > .MuiButton-root",
+    "GoToCycleBtn_2":".muiltr-0 > .MuiButton-root",
+    "Website":"https://dev.f6l-new.mobelite.fr/",
+    "Instagram":"f6l",
+    "Facebook":"f6l",
+    "LinkedIn":"f6l",
+    "Address":"Monastir",
+    "Phone":"+21611222333",
+    "Product":"f6l",
+    "Investissement":"12000"
+
+}

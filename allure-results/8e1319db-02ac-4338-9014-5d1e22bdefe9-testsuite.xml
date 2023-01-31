@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673352607828' stop='1673352665343'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1673352607828' status='passed' stop='1673352610795'>
+            <name>Should visit the login page correctly</name>
+            <title>Should visit the login page correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352610806' status='passed' stop='1673352613087'>
+            <name>Login as incubator</name>
+            <title>Login as incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352613103' status='passed' stop='1673352614407'>
+            <name>Open the page Porgrams</name>
+            <title>Open the page Porgrams</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352614413' status='passed' stop='1673352614828'>
+            <name>Open the popup for adding new program</name>
+            <title>Open the popup for adding new program</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352614834' status='passed' stop='1673352619797'>
+            <name>Fill the forms of addition new program and check the program is Successfuly added</name>
+            <title>Fill the forms of addition new program and check the program is Successfuly added</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352619820' status='passed' stop='1673352620143'>
+            <name>Open the popup for adding new Cycle</name>
+            <title>Open the popup for adding new Cycle</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352620159' status='passed' stop='1673352632671'>
+            <name>Fill the forms of addition new cycle and check the cycle is Successfuly added</name>
+            <title>Fill the forms of addition new cycle and check the cycle is Successfuly added</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352632682' status='passed' stop='1673352633064'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352633079' status='passed' stop='1673352643298'>
+            <name>Login as admin</name>
+            <title>Login as admin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352643316' status='passed' stop='1673352643924'>
+            <name>Go to Support</name>
+            <title>Go to Support</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352644037' status='passed' stop='1673352649953'>
+            <name>Accept Cycle Approval </name>
+            <title>Accept Cycle Approval </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352650047' status='passed' stop='1673352650393'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352650399' status='passed' stop='1673352661083'>
+            <name>Login as Incubator</name>
+            <title>Login as Incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673352661096' status='passed' stop='1673352665306'>
+            <name>Check the content message of the notification </name>
+            <title>Check the content message of the notification </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

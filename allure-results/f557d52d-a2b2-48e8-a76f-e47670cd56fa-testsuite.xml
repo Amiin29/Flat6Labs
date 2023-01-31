@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673268009684' stop='1673268024864'>
+    <name>Sign Up to FLAT6LABS Reading Data from newly created json file Reading Data from newly created json file</name>
+    <title>Sign Up to FLAT6LABS Reading Data from newly created json file Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673268009685' status='passed' stop='1673268013763'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268013769' status='passed' stop='1673268022176'>
+            <name>Click On a selected Program</name>
+            <title>Click On a selected Program</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268022191' status='passed' stop='1673268024820'>
+            <name>Check the application</name>
+            <title>Check the application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

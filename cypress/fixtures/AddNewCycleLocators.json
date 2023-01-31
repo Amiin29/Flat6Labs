@@ -1,0 +1,13 @@
+{
+    "NameCycle":".MuiOutlinedInput-input.MuiInputBase-input.muiltr-zwrapf",
+    "PickCalendar_1":":nth-child(2) > :nth-child(1) > .MuiFormControl-root > .MuiOutlinedInput-root",
+    "PickCalendar_2":":nth-child(2) > :nth-child(2) > .MuiFormControl-root > .MuiOutlinedInput-root",
+    "PickCalendar_3":":nth-child(3) > .MuiFormControl-root > .MuiOutlinedInput-root",
+    "PickCalendar_4":":nth-child(3) > :nth-child(1) > .MuiFormControl-root > .MuiOutlinedInput-root",
+    "PickCalendar_5":":nth-child(3) > :nth-child(2) > .MuiFormControl-root > .MuiOutlinedInput-root",
+    "ProgramTitle":".MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorSecondary.MuiInputBase-formControl.muiltr-1if5f9n",
+    "Marketing_pitch":":nth-child(4) > .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiFormControl-root > .MuiOutlinedInput-root",
+    "ButtonSaveCycle":".flex-col > .flex > .MuiButton-root",
+    "SearchInput":".MuiInput-input"
+
+}

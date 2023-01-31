@@ -1,0 +1,5 @@
+{
+  "SelectGeneralQuestion":".space-x-6 > .MuiAvatar-root",
+  "InputRequest":".MuiOutlinedInput-root",
+  "SubmitButton":".muiltr-0 > .MuiButton-root"
+}

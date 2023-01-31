@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673268491908' stop='1673268507482'>
+    <name>Sign Up to FLAT6LABS Reading Data from newly created json file Reading Data from newly created json file</name>
+    <title>Sign Up to FLAT6LABS Reading Data from newly created json file Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673268491908' status='passed' stop='1673268495932'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268495940' status='passed' stop='1673268504406'>
+            <name>Click On a selected Program</name>
+            <title>Click On a selected Program</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268504410' status='broken' stop='1673268507419'>
+            <name>Check the application</name>
+            <title>Check the application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.
+                
+                https://on.cypress.io/click</message>
+                <stack-trace>CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.
+                
+                https://on.cypress.io/click
+                    at mouseAction (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:135434:76)
+                    at Context.click (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:135612:14)
+                    at wrapped (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:157859:19)
+                From Your Spec Code:
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/Application.js:12:63)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

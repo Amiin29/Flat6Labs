@@ -1,0 +1,37 @@
+{
+  "name": "flat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:scripts": "cypress open --env ENV=dev",
+    "stage:scripts": "cypress open --env ENV=staging",
+    "prod:scripts": "cypress open --env ENV=production",
+    "dev": "npm run dev:scripts",
+    "stage": "npm run stage:scripts ",
+    "prod": "npm run prod:scripts ",
+    "dev_open": "cypress run --browser chrome --spec cypress/e2e/AllSpecPattern.cy.js --env ENV=dev allure=true --reporter mocha-allure-reporter --record --key cdf2237a-d608-4d2d-968a-8f15971ce7b7",
+    "stage_open": "cypress run --browser chrome --spec cypress/e2e/AllSpecPattern.cy.js --env ENV=dev allure=true --reporter mocha-allure-reporter --record --key cdf2237a-d608-4d2d-968a-8f15971ce7b7",
+    "prod_open": "cypress run --browser chrome --spec cypress/e2e/AllSpecPattern.cy.js --env ENV=dev allure=true --reporter mocha-allure-reporter --record --key cdf2237a-d608-4d2d-968a-8f15971ce7b7",
+    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "env": {
+    "allureResultsPath": "allure-resudlts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.20.1",
+    "allure-mocha": "^2.0.0-beta.20",
+    "cypress": "^11.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-xpath": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "node-xlsx": "^0.21.0"
+  }
+}

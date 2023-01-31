@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673277027177' stop='1673277064244'>
+    <name>Sign Up to FLAT6LABS Reading Data from newly created json file</name>
+    <title>Sign Up to FLAT6LABS Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673277027178' status='passed' stop='1673277030306'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277030314' status='passed' stop='1673277030623'>
+            <name>Go to EcoSystem</name>
+            <title>Go to EcoSystem</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277030663' status='passed' stop='1673277032134'>
+            <name>Select a program and click on the program selected</name>
+            <title>Select a program and click on the program selected</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277032139' status='passed' stop='1673277040861'>
+            <name>fill the first interface</name>
+            <title>fill the first interface</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277040867' status='passed' stop='1673277041164'>
+            <name>Check successful message of form 1</name>
+            <title>Check successful message of form 1</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277041170' status='passed' stop='1673277043578'>
+            <name>fill the seconde interface</name>
+            <title>fill the seconde interface</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277043582' status='passed' stop='1673277044325'>
+            <name>Check successful message of form 2</name>
+            <title>Check successful message of form 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277044330' status='passed' stop='1673277047985'>
+            <name>fill the seconde interface</name>
+            <title>fill the seconde interface</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277048025' status='passed' stop='1673277049069'>
+            <name>Check successful message of form 2</name>
+            <title>Check successful message of form 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673277049101' status='passed' stop='1673277049335'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

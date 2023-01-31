@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673355526119' stop='1673355545201'>
+    <name>Login Reading Data from newly created json file</name>
+    <title>Login Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673355526119' status='passed' stop='1673355529209'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673355529225' status='passed' stop='1673355529885'>
+            <name>Go to support as incubator</name>
+            <title>Go to support as incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673355529955' status='passed' stop='1673355530188'>
+            <name>Go to mentor request page</name>
+            <title>Go to mentor request page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673355530272' status='passed' stop='1673355533536'>
+            <name>Fill forms of mentor Request </name>
+            <title>Fill forms of mentor Request </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673355533546' status='passed' stop='1673355533697'>
+            <name>click on the submit button </name>
+            <title>click on the submit button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673355533699' status='passed' stop='1673355533855'>
+            <name>check the forms of mentor Request are successfuly submited</name>
+            <title>check the forms of mentor Request are successfuly submited</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673355533919' status='passed' stop='1673355534208'>
+            <name>Log Out from the website </name>
+            <title>Log Out from the website </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

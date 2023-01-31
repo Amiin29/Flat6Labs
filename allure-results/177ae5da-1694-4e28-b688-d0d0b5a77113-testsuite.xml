@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673278261941' stop='1673278271950'>
+    <name>Login Reading Data from newly created json file Reading Data from newly created json file</name>
+    <title>Login Reading Data from newly created json file Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673278261941' status='passed' stop='1673278264913'>
+            <name>login as Admin </name>
+            <title>login as Admin </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673278264918' status='passed' stop='1673278265196'>
+            <name>Go to Support as admin</name>
+            <title>Go to Support as admin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673278265201' status='passed' stop='1673278265280'>
+            <name>Go to Mentor Mentor Request </name>
+            <title>Go to Mentor Mentor Request </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673278265326' status='passed' stop='1673278271950'>
+            <name>Check the Successfull Approval of Mentor Mentor Request </name>
+            <title>Check the Successfull Approval of Mentor Mentor Request </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

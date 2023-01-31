@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673346553161' stop='1673346572423'>
+    <name>Sign Up to FLAT6LABS Reading Data from newly created json file Reading Data from newly created json file</name>
+    <title>Sign Up to FLAT6LABS Reading Data from newly created json file Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673346553161' status='passed' stop='1673346557215'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673346557221' status='passed' stop='1673346565827'>
+            <name>Click On a selected Program</name>
+            <title>Click On a selected Program</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673346565847' status='failed' stop='1673346572342'>
+            <name>Check the application</name>
+            <title>Check the application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `.MuiTableBody-root > .MuiTableRow-root > :nth-child(7)`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `.MuiTableBody-root > .MuiTableRow-root > :nth-child(7)`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/Application.js:12:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

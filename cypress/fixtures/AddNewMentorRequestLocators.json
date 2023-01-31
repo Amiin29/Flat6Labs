@@ -1,0 +1,12 @@
+{
+    "SelectProgram":"#mui-component-select-program",
+    "SelectFirstPorgram":".MuiPaper-root > .MuiList-root > [tabindex='0']",
+    "SelectLocation":"#mui-component-select-location",
+    "SelectLocationMn":"[data-value='Monastir']",
+    "SelectSpeciality":"#mui-component-select-speciality",
+    "SelectOneSpeciality":".MuiPaper-root > .MuiList-root > [tabindex='0']",
+    "SelectIdealCommitment":"#mui-component-select-idealCommitment",
+    "SelectOneIdealCommitment":".MuiPaper-root > .MuiList-root > [tabindex='0']",
+    "AdditionalComments":".MuiFormControl-root > .MuiOutlinedInput-root",
+    "SubmitButton":".muiltr-0 > .MuiButton-root"
+}

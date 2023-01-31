@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673268030242' stop='1673268047057'>
+    <name>Login Reading Data from newly created json file Reading Data from newly created json file</name>
+    <title>Login Reading Data from newly created json file Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673268030242' status='passed' stop='1673268033267'>
+            <name>login as Admin </name>
+            <title>login as Admin </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268033271' status='passed' stop='1673268033508'>
+            <name>Go to Support</name>
+            <title>Go to Support</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268033602' status='broken' stop='1673268038126'>
+            <name>Go to Mentor Request page </name>
+            <title>Go to Mentor Request page </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+                
+                `&lt;a tabindex="0" itempadding="16" role="button" class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button fuse-list-item muiltr-1sj5ic1" href="/admin/supports/inbox/generalQuestion">...&lt;/a>`
+                
+                Cypress requires elements be attached in the DOM to interact with them.
+                
+                The previous command that ran was:
+                
+                  > `cy.get()`
+                
+                This DOM element likely became detached somewhere between the previous and current command.
+                
+                Common situations why this happens:
+                  - Your JS framework re-rendered asynchronously
+                  - Your app code reacted to an event firing and removed the element
+                
+                You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+                
+                https://on.cypress.io/element-has-detached-from-dom</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+                
+                `&lt;a tabindex="0" itempadding="16" role="button" class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button fuse-list-item muiltr-1sj5ic1" href="/admin/supports/inbox/generalQuestion">...&lt;/a>`
+                
+                Cypress requires elements be attached in the DOM to interact with them.
+                
+                The previous command that ran was:
+                
+                  > `cy.get()`
+                
+                This DOM element likely became detached somewhere between the previous and current command.
+                
+                Common situations why this happens:
+                  - Your JS framework re-rendered asynchronously
+                  - Your app code reacted to an event firing and removed the element
+                
+                You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+                
+                https://on.cypress.io/element-has-detached-from-dom
+                    at $Cy.ensureAttached (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:147879:76)
+                    at runAllChecks (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:133521:12)
+                    at retryActionability (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:133601:16)
+                    at tryCatcher (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise.attempt.Promise.try (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:8601:29)
+                    at whenStable (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:153099:65)
+                    at &lt;unknown> (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:152508:14)
+                    at tryCatcher (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise._settlePromiseFromHandler (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9262:31)
+                    at Promise._settlePromise (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9319:18)
+                    at Promise._settlePromise0 (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9364:10)
+                    at Promise._settlePromises (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9444:18)
+                    at Promise._fulfill (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9388:18)
+                    at &lt;unknown> (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11002:46)
+                From Your Spec Code:
+                    at Context.eval (webpack:///./cypress/PageObjects/Support request/SupportRequestPage.js:25:63)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673268039194' status='failed' stop='1673268045359'>
+            <name>Check the  Mentor Request </name>
+            <title>Check the  Mentor Request </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `.muiltr-0 > .MuiButton-root`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `.muiltr-0 > .MuiButton-root`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Support request/SupportRequestPage.js:36:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

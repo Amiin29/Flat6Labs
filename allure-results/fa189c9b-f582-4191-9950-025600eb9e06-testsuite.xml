@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673268527773' stop='1673268535986'>
+    <name>Login Reading Data from newly created json file Reading Data from newly created json file</name>
+    <title>Login Reading Data from newly created json file Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673268527773' status='passed' stop='1673268530801'>
+            <name>login as Admin </name>
+            <title>login as Admin </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268530806' status='passed' stop='1673268531141'>
+            <name>Go to Support as admin</name>
+            <title>Go to Support as admin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268531256' status='passed' stop='1673268531288'>
+            <name>Go to Mentor Mentor Request </name>
+            <title>Go to Mentor Mentor Request </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673268531292' status='broken' stop='1673268535753'>
+            <name>Check the Successfull Approval of Mentor Mentor Request </name>
+            <title>Check the Successfull Approval of Mentor Mentor Request </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+                
+                `&lt;span class="MuiTypography-root MuiTypography-body1 text-13 font-medium fuse-list-item-text-primary truncate MuiListItemText-primary muiltr-uzix25">MENTOR ...&lt;/span>`
+                
+                Cypress requires elements be attached in the DOM to interact with them.
+                
+                The previous command that ran was:
+                
+                  > `cy.get()`
+                
+                This DOM element likely became detached somewhere between the previous and current command.
+                
+                Common situations why this happens:
+                  - Your JS framework re-rendered asynchronously
+                  - Your app code reacted to an event firing and removed the element
+                
+                You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+                
+                https://on.cypress.io/element-has-detached-from-dom</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+                
+                `&lt;span class="MuiTypography-root MuiTypography-body1 text-13 font-medium fuse-list-item-text-primary truncate MuiListItemText-primary muiltr-uzix25">MENTOR ...&lt;/span>`
+                
+                Cypress requires elements be attached in the DOM to interact with them.
+                
+                The previous command that ran was:
+                
+                  > `cy.get()`
+                
+                This DOM element likely became detached somewhere between the previous and current command.
+                
+                Common situations why this happens:
+                  - Your JS framework re-rendered asynchronously
+                  - Your app code reacted to an event firing and removed the element
+                
+                You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+                
+                https://on.cypress.io/element-has-detached-from-dom
+                    at $Cy.ensureAttached (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:147879:76)
+                    at runAllChecks (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:133521:12)
+                    at retryActionability (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:133601:16)
+                    at tryCatcher (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise.attempt.Promise.try (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:8601:29)
+                    at whenStable (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:153099:65)
+                    at &lt;unknown> (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:152508:14)
+                    at tryCatcher (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise._settlePromiseFromHandler (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9262:31)
+                    at Promise._settlePromise (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9319:18)
+                    at Promise._settlePromise0 (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9364:10)
+                    at Promise._settlePromises (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9444:18)
+                    at Promise._fulfill (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9388:18)
+                    at &lt;unknown> (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11002:46)
+                From Your Spec Code:
+                    at Context.eval (webpack:///./cypress/PageObjects/Mentor request/MentorRequest.js:5:63)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

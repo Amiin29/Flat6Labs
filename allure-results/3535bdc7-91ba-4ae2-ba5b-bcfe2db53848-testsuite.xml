@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673270609533' stop='1673270619644'>
+    <name>Signin Reading Data from newly created json file</name>
+    <title>Signin Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673270609534' status='passed' stop='1673270619631'>
+            <name>login as Admin </name>
+            <title>login as Admin </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,20 @@
+{
+    "ButtonSumbit":".flex-1 > .MuiButtonBase-root",
+    "Programs":"[href='/incubator/programs'] > .MuiListItemText-root > .MuiTypography-root",
+    "SearchInput":".MuiInput-input",
+    "GetNameProgram":".MuiTableBody-root > .MuiTableRow-root > :nth-child(2)",
+    "GetNameCycle":".MuiTableBody-root > .MuiTableRow-root > :nth-child(2)",
+    "ViewCycle":".MuiButton-startIcon.MuiButton-iconSizeMedium.muiltr-1l6c7y9",
+    "SubmitCycle":".MuiButton-root > .mx-8",
+    "MuiButton":":nth-child(1) > :nth-child(8) > .muiltr-0 > .MuiButton-root",
+    "ButtonAddNewCycle":":nth-child(2) > .MuiButton-root",
+    "ButtCycleApproval":"[href='/admin/supports/inbox/cycleApproval']",
+    "CycleApproval":".MuiListItem-root > .flex-auto",
+    "CycleApproval_2":":nth-child(2) > .MuiButton-root",
+    "MuiIconButton":".MuiToolbar-root > .items-center > .MuiIconButton-root",
+    "TextSuccessAprovalCycle":".p-16 > :nth-child(1) > :nth-child(2) > .flex > div",
+    "Button_1":".MuiTableBody-root > .MuiTableRow-root > :nth-child(8)",
+    "Button_2":".MuiTableBody-root > .MuiTableRow-root > :nth-child(7)"
+
+
+}

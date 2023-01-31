@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672918724961' stop='1672918725035'>
+    <name>Login convert data to Json</name>
+    <title>Login convert data to Json</title>
+    <test-cases>
+        <test-case start='1672918724961' status='passed' stop='1672918725032'>
+            <name>read data from excel</name>
+            <title>read data from excel</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

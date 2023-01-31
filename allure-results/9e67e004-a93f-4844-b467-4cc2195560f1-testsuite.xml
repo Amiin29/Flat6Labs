@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673273058096' stop='1673273107661'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1673273058096' status='passed' stop='1673273058764'>
+            <name>Should visit the login page correctly</name>
+            <title>Should visit the login page correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273058803' status='passed' stop='1673273059895'>
+            <name>Login as incubator</name>
+            <title>Login as incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273059908' status='passed' stop='1673273060468'>
+            <name>Open the page Porgrams</name>
+            <title>Open the page Porgrams</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273060474' status='passed' stop='1673273060765'>
+            <name>Open the popup for adding new program</name>
+            <title>Open the popup for adding new program</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273060774' status='passed' stop='1673273064975'>
+            <name>Fill the forms of addition new program and check the program is Successfuly added</name>
+            <title>Fill the forms of addition new program and check the program is Successfuly added</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273064981' status='passed' stop='1673273065282'>
+            <name>Open the popup for adding new Cycle</name>
+            <title>Open the popup for adding new Cycle</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273065292' status='passed' stop='1673273077199'>
+            <name>Fill the forms of addition new cycle and check the cycle is Successfuly added</name>
+            <title>Fill the forms of addition new cycle and check the cycle is Successfuly added</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273077263' status='passed' stop='1673273077600'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273077609' status='passed' stop='1673273087788'>
+            <name>Login as admin</name>
+            <title>Login as admin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273087801' status='passed' stop='1673273088406'>
+            <name>Go to Support</name>
+            <title>Go to Support</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273088505' status='broken' stop='1673273093024'>
+            <name>Accept Cycle Approval </name>
+            <title>Accept Cycle Approval </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+                
+                `&lt;a tabindex="0" itempadding="16" role="button" class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button fuse-list-item muiltr-1sj5ic1" href="/admin/supports/inbox/cycleApproval">...&lt;/a>`
+                
+                Cypress requires elements be attached in the DOM to interact with them.
+                
+                The previous command that ran was:
+                
+                  > `cy.get()`
+                
+                This DOM element likely became detached somewhere between the previous and current command.
+                
+                Common situations why this happens:
+                  - Your JS framework re-rendered asynchronously
+                  - Your app code reacted to an event firing and removed the element
+                
+                You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+                
+                https://on.cypress.io/element-has-detached-from-dom</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+                
+                `&lt;a tabindex="0" itempadding="16" role="button" class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button fuse-list-item muiltr-1sj5ic1" href="/admin/supports/inbox/cycleApproval">...&lt;/a>`
+                
+                Cypress requires elements be attached in the DOM to interact with them.
+                
+                The previous command that ran was:
+                
+                  > `cy.get()`
+                
+                This DOM element likely became detached somewhere between the previous and current command.
+                
+                Common situations why this happens:
+                  - Your JS framework re-rendered asynchronously
+                  - Your app code reacted to an event firing and removed the element
+                
+                You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+                
+                https://on.cypress.io/element-has-detached-from-dom
+                    at $Cy.ensureAttached (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:147879:76)
+                    at runAllChecks (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:133521:12)
+                    at retryActionability (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:133601:16)
+                    at tryCatcher (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise.attempt.Promise.try (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:8601:29)
+                    at whenStable (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:153099:65)
+                    at &lt;unknown> (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:152508:14)
+                    at tryCatcher (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise._settlePromiseFromHandler (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9262:31)
+                    at Promise._settlePromise (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9319:18)
+                    at Promise._settlePromise0 (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9364:10)
+                    at Promise._settlePromises (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9444:18)
+                    at Promise._fulfill (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:9388:18)
+                    at &lt;unknown> (https://dev.f6l-new.mobelite.fr/__cypress/runner/cypress_runner.js:11002:46)
+                From Your Spec Code:
+                    at Context.eval (webpack:///./cypress/PageObjects/Support request/SupportAdminPage.js:11:72)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673273094193' status='passed' stop='1673273096797'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273096816' status='passed' stop='1673273107485'>
+            <name>Login as Incubator</name>
+            <title>Login as Incubator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673273107501' status='passed' stop='1673273107658'>
+            <name>Check the content message of the notification </name>
+            <title>Check the content message of the notification </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

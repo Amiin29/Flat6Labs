@@ -1,0 +1,41 @@
+class SignUp{
+    SetStartupName(startup_name){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.startup_name).type(startup_name);
+        })
+    }
+    SetFirstName(first_name){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.first_name).type(first_name);
+        })
+    }
+    SetLastName(last_name){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.last_name).type(last_name);
+        })
+    }
+    SetEmail(email){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.email).type(email);
+        })
+    }
+    SetPassword(Password){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.Password).type(Password);
+        })
+    }
+    SetConfirmPassword(passwordConfirm){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.passwordConfirm).type(passwordConfirm);
+        })
+    }
+    ClickOnSubmit(){
+        cy.fixture('SignUpLocators').then((data)=>{
+            cy.get(data.ButtonSumbit).click();
+        })
+    }
+    VerifyErrorMessage(){
+        cy.get('.MuiAlert-message.muiltr-1w0ym84').should('have.text','Email already taken')
+    }
+}
+export default SignUp;

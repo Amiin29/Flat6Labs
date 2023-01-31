@@ -1,0 +1,13 @@
+{
+    "SupportButton":"[href='/incubator/supports'] > .MuiListItemText-root > .MuiTypography-root",
+    "IconMentorRequest":".flex-wrap > :nth-child(1) > .flex",
+    "SucessfulMsg":":nth-child(6) > .MuiTypography-root",
+    "MentorRequestButton":"[href='/admin/supports/inbox/mentorRequest']",
+    "PopupCompleteRequest":".FusePageCarded-content > :nth-child(1) > .MuiList-root > .MuiListItem-root",
+    "CompleteRequest":":nth-child(2) > .MuiButton-root",
+    "MentorRequestIcone":"[href='/admin/supports/inbox/mentorRequest'] > .item-badge",
+    "ButtonMentor":"[href='/admin/supports/inbox/mentorRequest'] > .MuiListItemText-root > .MuiTypography-root",
+    "mentorRequestIcone1":"[href='/admin/supports/inbox/mentorRequest'] > .item-badge",
+    "mentorRequestIcone2":"[href='/admin/supports/inbox/mentorRequest'] > .item-badge",
+    "mentorRequestIcone3":"[href='/admin/supports/inbox/mentorRequest'] > .item-badge"
+}

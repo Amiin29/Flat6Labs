@@ -1,0 +1,9 @@
+{
+    "IconeSupportRequest":".flex-wrap > :nth-child(2) > .flex",
+    "MsgSucess":".py-40 > .flex-col > :nth-child(2) > .MuiTypography-root",
+    "supports":"[href='/admin/supports']",
+    "generalQuestion":"[href='/admin/supports/inbox/generalQuestion']",
+    "generalQuestionSelect":"[href='/admin/supports/inbox/generalQuestion/63924b11f080c80024b3e423'] > .flex-auto",
+    "ButtonMarkAsComplete":".muiltr-0 > .MuiButton-root",
+    "generalQuestionIcone":"[href='/admin/supports/inbox/generalQuestion'] > .item-badge"
+}

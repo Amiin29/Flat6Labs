@@ -1,0 +1,22 @@
+{
+  "ButtonAddNewProgram":":nth-child(2) > .muiltr-0 > .MuiButton-root",
+  "NameProgram":".MuiOutlinedInput-input.MuiInputBase-input.muiltr-zwrapf",
+  "Selectcity":"#mui-component-select-city",
+  "SelectMonastir":"[data-value='Monastir']",
+  "Select1":"#mui-component-select-sector",
+  "Manufacturing":"[data-value='Manufacturing']",
+  "SaveButton":".flex > .muiltr-0 > .MuiButton-root",
+  "Supports":"[href='/admin/supports']",
+  "Program":"#MuiTypography-root.MuiTypography-body1.text-13.font-medium.fuse-list-item-text-primary.truncate.MuiListItemText-primary.muiltr-uzix25",
+  "ButtonView":":nth-child(8) > .muiltr-0 > .MuiButton-root",
+  "IconUser":".MuiButton-root > .MuiAvatar-root",
+  "ButtonLogOut":".MuiListItemIcon-root.min-w-40.muiltr-1f8bwsm",
+  "ButtonAcceptApprovel":".FusePageCarded-content > :nth-child(1) > .MuiList-root > .MuiListItem-root",
+  "IconNotification":":nth-child(2) > .MuiButton-root",
+  "ButtonSubmit":":nth-child(2) > .MuiButton-root",
+  "SucessfulMsg_1":":nth-child(5) > :nth-child(1) > .flex-row > .flex > .MuiTypography-root",
+  "GoToCycleBtn_1":":nth-child(1) > :nth-child(8) > .muiltr-0 > .MuiButton-root",
+  "ViewPorgramButt":"cy.get(':nth-child(8) > .muiltr-0 > .MuiButton-root')",
+  "GoToCycleBtn_2":".muiltr-0 > .MuiButton-root",
+  "cycle":".MuiTableBody-root > .MuiTableRow-root > :nth-child(7)"
+}   

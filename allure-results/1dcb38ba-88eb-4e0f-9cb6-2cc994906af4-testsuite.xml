@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673275526891' stop='1673275578364'>
+    <name>Sign Up to FLAT6LABS Reading Data from newly created json file</name>
+    <title>Sign Up to FLAT6LABS Reading Data from newly created json file</title>
+    <test-cases>
+        <test-case start='1673275526891' status='passed' stop='1673275530232'>
+            <name>login as Incubator </name>
+            <title>login as Incubator </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673275530239' status='passed' stop='1673275530851'>
+            <name>Go to EcoSystem</name>
+            <title>Go to EcoSystem</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673275530898' status='failed' stop='1673275536377'>
+            <name>Select a program and click on the program selected</name>
+            <title>Select a program and click on the program selected</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(7) > .MuiBox-root > .MuiButton-root`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(7) > .MuiBox-root > .MuiButton-root`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/EcoSystem/EcoSystem.js:18:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275536417' status='failed' stop='1673275542059'>
+            <name>fill the first interface</name>
+            <title>fill the first interface</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `:nth-child(3) > .MuiFormGroup-root > .MuiFormControlLabel-root`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(3) > .MuiFormGroup-root > .MuiFormControlLabel-root`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/FillFormsApplication.js:7:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275542065' status='failed' stop='1673275546267'>
+            <name>Check successful message of form 1</name>
+            <title>Check successful message of form 1</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `h3`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `h3`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/FillFormsApplication.js:19:54)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275546288' status='failed' stop='1673275550489'>
+            <name>fill the seconde interface</name>
+            <title>fill the seconde interface</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `:nth-child(2) > :nth-child(1) > .MuiFormGroup-root > .MuiFormControlLabel-root`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(2) > :nth-child(1) > .MuiFormGroup-root > .MuiFormControlLabel-root`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/FillFormsApplication.js:28:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275550550' status='failed' stop='1673275554698'>
+            <name>Check successful message of form 2</name>
+            <title>Check successful message of form 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `:nth-child(2) > :nth-child(1) > .flex-wrap > :nth-child(2) > .muiltr-0 > .MuiButton-root`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(2) > :nth-child(1) > .flex-wrap > :nth-child(2) > .muiltr-0 > .MuiButton-root`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/FillFormsApplication.js:42:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275554706' status='failed' stop='1673275558867'>
+            <name>fill the seconde interface</name>
+            <title>fill the seconde interface</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `#mui-component-select-legalForm`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `#mui-component-select-legalForm`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/FillFormsApplication.js:52:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275558877' status='failed' stop='1673275563049'>
+            <name>Check successful message of form 2</name>
+            <title>Check successful message of form 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `:nth-child(3) > :nth-child(1) > .flex-wrap > :nth-child(2) > .muiltr-0 > .MuiButton-root`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(3) > :nth-child(1) > .flex-wrap > :nth-child(2) > .muiltr-0 > .MuiButton-root`, but never found it.
+                    at Context.eval (webpack:///./cypress/PageObjects/Application/FillFormsApplication.js:74:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673275563066' status='passed' stop='1673275563321'>
+            <name>LogOut from the website</name>
+            <title>LogOut from the website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

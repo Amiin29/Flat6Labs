@@ -1,0 +1,9 @@
+{
+    "startup_name":"input[name='startup_name']",
+    "first_name":"input[name='first_name']",
+    "last_name":"input[name='last_name']",
+    "email":"input[name='email']",
+    "Password":"input[name='password']",
+    "passwordConfirm":"input[name='passwordConfirm']",
+    "ButtonSumbit":"button[type='submit']"
+}
