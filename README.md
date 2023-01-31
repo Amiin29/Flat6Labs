@@ -73,6 +73,7 @@ cypress\
 
 ## Screenshots of the different cypress interfaces for test results
 - Screenshots of the execution result in Cloud cypress
+
 ![App Screenshot](https://user-images.githubusercontent.com/67683686/208398421-6a6cdbb5-1685-4e64-affb-aeb9df0fffbe.png)
 
 ![App Screenshot](https://user-images.githubusercontent.com/67683686/208398850-4edee7b1-fe21-4c1e-849d-8d5da5114adb.png)
@@ -80,6 +81,7 @@ cypress\
 ![App Screenshot](https://user-images.githubusercontent.com/67683686/208399069-edfeb40d-256a-44ce-9f45-17368a24108c.png)
 
 - Screenshots of the execution result in Allure reports
+
 ![App Screenshot](https://user-images.githubusercontent.com/67683686/210776927-2c2c8a8f-2b4b-4600-82fa-76f53a14bafa.png)
 
 ![App Screenshot](https://user-images.githubusercontent.com/67683686/210777857-a37434ba-d951-4b63-8736-426d67df17d6.png)
