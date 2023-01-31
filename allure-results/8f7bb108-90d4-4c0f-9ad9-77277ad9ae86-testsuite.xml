@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675162931198' stop='1675162985234'>
+    <name>Sign Up to FLAT6LABS</name>
+    <title>Sign Up to FLAT6LABS</title>
+    <test-cases>
+        <test-case start='1675162931198' status='passed' stop='1675162932505'>
+            <name>Should visit the login page correctly</name>
+            <title>Should visit the login page correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
